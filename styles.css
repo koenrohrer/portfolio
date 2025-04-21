@@ -1,8 +1,8 @@
-/* 01 — reset & base */
+/* 01 — reset & base */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: system-ui, sans-serif; line-height: 1.6; background: #f9f9fb; color: #222; }
 
-/* 02 — hero */
+
 .hero {
   min-height: 100vh;
   display: grid;
@@ -10,6 +10,10 @@ body { font-family: system-ui, sans-serif; line-height: 1.6; background: #f9f9fb
   text-align: center;
   gap: 1rem;
   background: url("img/hero.png") center/cover no-repeat;
+  color: #ffffff;
+}
+.hero h1 {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 .btn {
   display:inline-block;
